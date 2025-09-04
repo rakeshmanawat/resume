@@ -1,0 +1,113 @@
+*{
+  font-family: Arial, sans-serif;
+  background-color: white;  
+  background-position: center;
+  
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 0px; 
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 0px;
+    padding: 0px;
+    height: 20px;
+    background: white;
+
+}
+
+h1{
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+
+
+}
+
+
+h2, h3{
+    text-align: center;
+}
+
+
+.resume-header {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.resume-header h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-image {
+  display: block;
+  margin: 10px auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.resume-header p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.resume-header a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.resume-header a:hover {
+  text-decoration: underline;
+}
+
+/* These classes are defined to put respective word in center */
+.Carrier, .Academic, .Technical, .Soft, .Projects, .Domain, .Strength, .Declaration {
+  text-align: center;
+  background-color: white;
+}
+
+/* If View certificate is written then there is no special colour for this "View Certificate". */
+.Certification a, .Extra a{
+    text-decoration: none
+}
+
+/* When hover on the link it show underline with red colour.  */
+.Certification a:hover, .Extra a:hover { 
+  text-decoration: underline;
+  color: red;
+}
+
+
+/* Class Container properties defined */
+.Container{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
