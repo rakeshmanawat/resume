@@ -130,13 +130,13 @@ th, td {
 }
 
 
-/* for download button */
+
 
 
 .download-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007BFF; /* Blue color */
+  background-color: #007BFF; 
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -145,8 +145,7 @@ th, td {
 }
 
 .download-btn:hover {
-  background-color: #7f878f; /* Darker blue on hover */
+  background-color: #7f878f; 
 }
 
-/* for download button */
 
